@@ -1,0 +1,6 @@
+# copy to .env
+BOT_TOKEN=
+ADMIN=
+PORT=8080
+DB=./database.sqlite3
+ICON_PATH=./icons

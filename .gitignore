@@ -1,0 +1,8 @@
+example.db
+.env
+.dockerenv
+database.sqlite3
+ex.db
+supervisord.log
+supervisord.pid
+__pycache__

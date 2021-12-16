@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  silly-auth-app:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - silly-auth:/data
+    env_file:
+      - .dockerenv
+      - .basedockerenv
+volumes:
+  silly-auth: {}

@@ -1,0 +1,3 @@
+DB=/data/database.sqlite3
+ICON_PATH=/data/icons
+PORT=8888
